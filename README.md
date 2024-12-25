@@ -9,10 +9,14 @@ Melanoma is a type of cancer that can be deadly if not detected early. It accoun
 * [Acknowledgements](#Acknowledgments)
 
 ## Problem Statement
-To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+To build a CNN based model which can accurately detect melanoma. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 # Approach
-Build CNN architecture and train it on Training data. Evaluate the accuracy of model on Validation data set using accuracy and loss curves. Make changes to the model to avoid overfitting or under fitting. To reduced overfitting data is rebalanced and also syntheic data is cretaed. 
+- Load the data ( images ) and underrstand the labels/classes. Split the Data in to Training, Validation and Test sets.
+- Build a CNN architecture and evaluate the accuracy of model on training data set.
+- After priliminary run, analyze the model learning using accuracy and loss curves.
+- Based on speccific run observations make changes to the model architecture to avoid overfitting or under fitting. To reduced overfitting data is rebalanced and also syntheic data is created
+  
 ## Conclusions
 *   Overfitting had reduced after rebalancing number of images for each lable and increasing the number of images for training. Dropout method is used for regularization.
 *   Accuracy for training and validation has improved considerable after rebalancing, normalization and increasing the traning data.
