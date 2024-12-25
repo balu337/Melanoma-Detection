@@ -21,7 +21,7 @@ To build a CNN based model which can accurately detect melanoma. A solution whic
 *   Overfitting had reduced after rebalancing number of images for each lable and increasing the number of images for training. Dropout method is used for regularization.
 *   Accuracy for training and validation has improved considerable after rebalancing, normalization and increasing the traning data.
   
-## Techcnologies Used
+## Technologies Used
 - keras
 - tensorflow
 - pandas 
@@ -30,3 +30,7 @@ To build a CNN based model which can accurately detect melanoma. A solution whic
 
   
 ## Acknowledgments
+
+- https://www.youtube.com/watch?v=nt5DwCuYY5c
+- https://youtube.com/@digitalsreeni?si=UZLAC5rDoA6V2hi3
+
