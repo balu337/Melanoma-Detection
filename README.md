@@ -14,7 +14,9 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 # Approach
 Build CNN architecture and train it on Training data. Evaluate the accuracy of model on Validation data set using accuracy and loss curves. Make changes to the model to avoid overfitting or under fitting. To reduced overfitting data is rebalanced and also syntheic data is cretaed. 
 ## Conclusions
-
+*   Overfitting had reduced after rebalancing number of images for each lable and increasing the number of images for training. Dropout method is used for regularization.
+*   Accuracy for training and validation has improved considerable after rebalancing, normalization and increasing the traning data.
+  
 ## Techcnologies Used
 - keras
 - tensorflow
