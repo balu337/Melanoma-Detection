@@ -22,11 +22,12 @@ To build a CNN based model which can accurately detect melanoma. A solution whic
 *   Accuracy for training and validation has improved considerable after rebalancing, normalization and increasing the traning data.
   
 ## Technologies Used
-- keras
-- tensorflow
-- pandas 
-- numpy
-- sns
+- keras -version 3.5.0
+- tensorflow  - version 2.17.1
+- pandas - version 2.2.2 
+- numpy  -version 1.26.4
+- Python - version 3.9.7
+
 
   
 ## Acknowledgments
